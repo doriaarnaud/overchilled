@@ -51,13 +51,32 @@ let tableau_description=
 let rouge=0;
 let timer=null;
 let timer_vert=null;
+let ispc_slider=false;
+let timer=null;
+let images_num=0;
 const Home=
 {
 	template:'#home',
 	name:'Home',
 	data:()=>
 	{
-		return {rouge:0,vert:0,bleu:255,timer,timer_vert,gallerynext,galleryprev,toggler,banniere_nxt,banniere_prev,cart,tableau_description}
+		return {image_num,timer,ispc_slider,rouge:0,vert:0,bleu:255,timer,timer_vert,gallerynext,galleryprev,toggler,banniere_nxt,banniere_prev,cart,tableau_description}
+	},
+	mounted()
+	{
+		this.start();
+	},
+	start()
+	{
+		this.timer=setInterval(this.next,1000);
+	},
+	next()
+	{
+		this.images_num+=1;
+		if(this.image_num==6)
+		{
+			this.image_num=0;
+		}
 	},
 	methods:
 	{
