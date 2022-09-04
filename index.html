@@ -75,9 +75,11 @@
 							<button v-if="galleryprev.length>0" v-on:click="precedent">-</button>
 						</div>	
 						<div class="slider">
-							<span v-for="images in gallerynext">
-								<img v-bind:src="images.img" alt=""/>
-							</span>
+							<transition name="pc_slider">
+								<span v-for="images in gallerynext">
+									<img v-if="ispc_slider" v-bind:src="images.img" alt=""/>
+								</span>
+							</transition>	
 						</div>
 						<div class="bouton_next">	
 							<button v-if="galleryprev.length<=8"v-on:click="suivant">+</button>
