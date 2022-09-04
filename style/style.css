@@ -162,23 +162,6 @@
 	background-color:#c0c0c0;
 	color:#ffffff;
 }
-.pc_slider-enter
-{
-	transform:translateX(300px);	
-}
-.pc_slider-enter-active
-{
-	transition:all ease 2s;
-}
-.pc_slider-enter-to
-{
-	
-}
-.pc_slider-leave-to
-{
-	transition:all ease 2s;
-	transform:translateX(300px);
-}
 .corps .corps_contenu .slider
 {
 	height:240px;
