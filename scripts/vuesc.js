@@ -1,15 +1,15 @@
 const slider=
 [
-	{id:0,idp:'5h78j6f7g',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov1.png'},
-	{id:1,idp:'3hd6i5k49',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov2.png'},
-	{id:2,idp:'5u8d3h5kf',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov3.png'},
-	{id:3,idp:'3kc7e1h69',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov4.png'},
-	{id:4,idp:'9g7rm4ud7',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov5.png'},
-	{id:5,idp:'1n4u6s5t3',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov6.png'},
-	{id:6,idp:'4m7k8v38s',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov7.png'},
-	{id:7,idp:'0u8r44kjf',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov8.png'},
-	{id:8,idp:'63ks8sj2a',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov9.png'},
-	{id:9,idp:'b4c5a6f7e',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov10.png'}
+		{id:0,idp:'5h78j6f7g',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov1.png'},
+		{id:1,idp:'3hd6i5k49',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov2.png'},
+		{id:2,idp:'5u8d3h5kf',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov3.png'},
+		{id:3,idp:'3kc7e1h69',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov4.png'},
+		{id:4,idp:'9g7rm4ud7',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov5.png'},
+		{id:5,idp:'1n4u6s5t3',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov6.png'},
+		{id:6,idp:'4m7k8v38s',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov7.png'},
+		{id:7,idp:'0u8r44kjf',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov8.png'},
+		{id:8,idp:'63ks8sj2a',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov9.png'},
+		{id:9,idp:'b4c5a6f7e',description:{cpu:'Description example',gpu:'Description example',board:'Description example'},price:1234,img:'./images/ov10.png'}
 ];
 let cart=[];
 let gallerynext=
