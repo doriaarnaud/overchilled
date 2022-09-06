@@ -1,6 +1,9 @@
 .header
 {
 	background-color:#000000;
+	width: 1380px;
+	margin-left: auto;
+	margin-right: auto;
 	height:100px;
 }
 .header_content
@@ -65,7 +68,10 @@
 .menu
 {
 	background-color:#aaaaff;
+	width: 1380px;
 	height:70px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .menu .menu_content
 {
@@ -308,6 +314,12 @@
 	text-align:center;
 	padding-top:5px;
 	text-decoration:inherit;
+}
+.corps .corps_contenu .product_description
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
 }
 .corps .corps_contenu .product_description .description_content
 {
